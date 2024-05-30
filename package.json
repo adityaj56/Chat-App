@@ -1,0 +1,20 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "A chat app using typescript and graphql",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Jangid",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "fastify-plugin": "^4.5.1",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
