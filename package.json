@@ -4,17 +4,27 @@
   "description": "A chat app using typescript and graphql",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "start": "node dist/index.js",
+    "dev": "nodemon"
   },
   "author": "Aditya Jangid",
   "license": "ISC",
   "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "@as-integrations/fastify": "^2.1.1",
+    "@graphql-tools/load-files": "^7.0.0",
+    "@graphql-tools/merge": "^9.0.4",
+    "@graphql-tools/schema": "^10.0.4",
     "fastify": "^4.27.0",
     "fastify-plugin": "^4.5.1",
-    "mongoose": "^8.4.0",
-    "nodemon": "^3.1.2"
+    "graphql": "^16.8.1",
+    "mongoose": "^8.4.0"
   },
   "devDependencies": {
+    "nodemon": "^3.1.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
 }
